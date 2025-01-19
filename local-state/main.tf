@@ -1,6 +1,9 @@
 # Specify the provider
 provider "azurerm" {
   features {} #Required block for AzureRM provider
+
+  # Use the variables.tf for subscription ID
+  subscription_id = var.subscription_id
 }
 
 # Configure local backend for state storage
