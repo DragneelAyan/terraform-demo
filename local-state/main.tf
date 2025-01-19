@@ -17,7 +17,7 @@ terraform {
 # Define a resource group
 resource "azurerm_resource_group" "rg" {
   name = "linux-vm-rg"
-  location = "Central Asia"
+  location = "Central India"
 }
 
 # Define a virtual network
